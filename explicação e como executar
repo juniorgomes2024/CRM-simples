@@ -1,0 +1,62 @@
+📌 Sistema CRUD em PHP com MySQL
+Este projeto é um sistema web simples de cadastro e gerenciamento de registros (CRUD - Create, Read, Update, Delete), desenvolvido com PHP e MySQL. Ele permite adicionar, visualizar e atualizar informações de pessoas em um banco de dados.
+
+📂 Arquivos do Projeto
+index.php
+
+Página principal que exibe todos os registros cadastrados.
+
+Lista os dados em uma tabela HTML.
+
+Possui links para editar registros existentes.
+
+cadastrar.php
+
+Formulário responsável por cadastrar novos usuários no banco de dados.
+
+Utiliza o método POST para enviar as informações (nome, email e telefone) para inserção.
+
+atualizar.php
+
+Atualiza os dados de um registro já existente.
+
+Recebe os dados via POST e atualiza o banco de dados com base no id.
+
+conexao.php
+
+Script responsável pela conexão com o banco de dados MySQL usando mysqli.
+
+Centraliza as informações de conexão para reaproveitamento em vários arquivos.
+
+banco.sql
+
+Script SQL para criar a tabela pessoas no banco de dados.
+
+Contém os campos: id, nome, email, telefone.
+
+💡 Funcionalidades Implementadas
+ Conexão com banco de dados MySQL
+
+ Cadastro de novos registros
+
+ Listagem dinâmica dos dados
+
+ Atualização de registros via formulário
+
+ ⚙️ Tecnologias Utilizadas
+PHP (Programação backend)
+
+MySQL (Banco de dados relacional)
+
+HTML/CSS (Interface básica)
+
+XAMPP/WAMP (Ambiente de desenvolvimento local)
+
+🚀 Como executar
+Importe o arquivo banco.sql no seu banco de dados MySQL.
+
+Altere os dados de conexão no conexao.php conforme suas configurações locais.
+
+Coloque todos os arquivos em uma pasta no diretório do seu servidor local (htdocs para XAMPP).
+
+Acesse via navegador: http://localhost/nome-da-pasta/index.php
